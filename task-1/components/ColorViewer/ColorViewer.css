@@ -1,0 +1,10 @@
+.color-viewer-container {
+  border: 2px solid black;
+  width: 300px;
+  padding-left: 1em;
+  padding-bottom: 1em;
+}
+.color-div {
+  height: 50px;
+  width: 50px;
+}
