@@ -1,0 +1,40 @@
+.article {
+  width: 50%;
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.title::after {
+  content: "";
+  width: 2rem;
+  height: 2px;
+  color: red;
+}
+
+.body {
+  padding: 1rem;
+  font-size: 1rem;
+  word-break: break-word;
+  max-height: 350px;
+  overflow: scroll;
+}
+
+.likeButton {
+  position: absolute;
+  bottom: -1rem;
+  left: -1rem;
+}
+
+.deleteButton {
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+}
