@@ -1,0 +1,23 @@
+.comment {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  word-break: break-word;
+}
+
+.author {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.content {
+  font-size: 1rem;
+}
+
+.likesDisplay {
+  display: flex;
+  align-items: center;
+}
+
+.likeButton {
+  filter: hue-rotate(145deg);
+}

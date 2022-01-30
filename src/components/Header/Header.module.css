@@ -1,0 +1,22 @@
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 2rem;
+}
+
+.button {
+  margin: 2rem 1rem;
+  transform: translateY(50%);
+}
+
+.profileButton {
+  margin: 2rem 0;
+  transform: translateY(50%);
+}
