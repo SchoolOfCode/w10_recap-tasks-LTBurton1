@@ -1,4 +1,5 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=6838600&assignment_repo_type=AssignmentRepo)
+
 # Weekly Recap Tasks
 
 ## Feedback
@@ -40,3 +41,38 @@ If you'd like to carry on with this repo, here are some ideas:
 - Explore what else you can do with Auth0 to add additional auth to your blog (such as roles).
 - Add test files and tests for your components.
 - Create and deploy a REST API back end to serve your articles.
+
+# Blog App
+
+A simple blog about Pigeons created using React.
+
+## Features
+
+- Add/Delete blog posts
+- Like/unlike blog posts
+- Comment section with likeable comments
+- User authentication
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/SchoolOfCode/w10_recap-tasks-LTBurton1 .
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the development server at http://localhost:3000
+
+```bash
+  npm start
+```
+
+## Demo
+
+View this project at: https://upbeat-ardinghelli-5ecd5c.netlify.app/
